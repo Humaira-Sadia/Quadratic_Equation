@@ -1,0 +1,86 @@
+.html{
+    font-size: 62.5%;
+}
+* {
+    padding: 0%;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Roboto+Mono&display=swap');
+}
+
+.main{
+    background-color: beige;
+    box-shadow: -8px -4px 8px 0px ;
+}
+
+.h1 {
+    background-color: black;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0rem;
+    padding: 1.01rem;
+    color: yellow;
+}
+
+.h2{
+    background-color: #f44336;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -4rem;
+    border-radius: 2rem;
+}
+
+
+.f1{
+    background: linear-gradient(45deg, #453bff, transparent);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    color: rgb(38, 0, 255);
+}
+
+.btn{
+    font-size: 1rem;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    background-color: rgb(21, 66, 163);
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(21, 66, 163);
+    background-color: white;
+}
+
+.btn1{
+    font-size: 1rem;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.end{
+    padding: 1rem;
+    text-align: center;
+    margin-top: -2rem;
+    background-color: black;
+    color: white;
+    font-family:  "Roboto Mono", monospace;
+}
+
+@media(max-width:356){
+     .h1{
+        font-size: 90%;
+     }
+}
