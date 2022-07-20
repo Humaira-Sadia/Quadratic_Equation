@@ -1,7 +1,11 @@
 .html{
     font-size: 62.5%;
 }
+<<<<<<< HEAD
 * {
+=======
+*{
+>>>>>>> 1048fae (second commit)
     padding: 0%;
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
@@ -9,8 +13,16 @@
 }
 
 .main{
+<<<<<<< HEAD
     background-color: beige;
     box-shadow: -8px -4px 8px 0px ;
+=======
+    background: linear-gradient(45deg, #453bff, transparent);
+    box-shadow: -8px -4px 8px 0px ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+>>>>>>> 1048fae (second commit)
 }
 
 .h1 {
@@ -24,17 +36,30 @@
 }
 
 .h2{
+<<<<<<< HEAD
     background-color: #f44336;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 1.5rem;
     text-align: center;
     margin-top: -4rem;
     border-radius: 2rem;
+=======
+    background-color:  #453bff;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem; 
+   
+>>>>>>> 1048fae (second commit)
 }
 
 
 .f1{
+<<<<<<< HEAD
     background: linear-gradient(45deg, #453bff, transparent);
+=======
+>>>>>>> 1048fae (second commit)
     padding-top: 3rem;
     padding-bottom: 5rem;
     text-align: center;
@@ -71,6 +96,7 @@
 }
 
 .end{
+<<<<<<< HEAD
     padding: 1rem;
     text-align: center;
     margin-top: -2rem;
@@ -84,3 +110,25 @@
         font-size: 90%;
      }
 }
+=======
+    width: 100vw;
+    line-height: 5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+@media(max-width:350px){
+    html{
+       font-size: 45%;
+    }
+}
+
+@media(max-width:998px){
+     html{
+        font-size: 55%;
+     }
+}
+
+>>>>>>> 1048fae (second commit)
