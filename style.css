@@ -1,28 +1,19 @@
-.html{
+.html {
     font-size: 62.5%;
 }
-<<<<<<< HEAD
+
 * {
-=======
-*{
->>>>>>> 1048fae (second commit)
     padding: 0%;
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
     @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Roboto+Mono&display=swap');
 }
 
-.main{
-<<<<<<< HEAD
-    background-color: beige;
-    box-shadow: -8px -4px 8px 0px ;
-=======
+.main {
     background: linear-gradient(45deg, #453bff, transparent);
-    box-shadow: -8px -4px 8px 0px ;
     display: flex;
     flex-direction: column;
     height: 100vh;
->>>>>>> 1048fae (second commit)
 }
 
 .h1 {
@@ -35,31 +26,18 @@
     color: yellow;
 }
 
-.h2{
-<<<<<<< HEAD
-    background-color: #f44336;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: -4rem;
-    border-radius: 2rem;
-=======
-    background-color:  #453bff;
+.h2 {
+    background-color: #453bff;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 1.5rem;
     text-align: center;
     padding-left: 2rem;
-    padding-right: 2rem; 
-   
->>>>>>> 1048fae (second commit)
+    padding-right: 2rem;
+
 }
 
 
-.f1{
-<<<<<<< HEAD
-    background: linear-gradient(45deg, #453bff, transparent);
-=======
->>>>>>> 1048fae (second commit)
+.f1 {
     padding-top: 3rem;
     padding-bottom: 5rem;
     text-align: center;
@@ -69,7 +47,7 @@
     color: rgb(38, 0, 255);
 }
 
-.btn{
+.btn {
     font-size: 1rem;
     color: white;
     border-radius: 2rem;
@@ -79,14 +57,15 @@
     background-color: rgb(21, 66, 163);
     cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     color: rgb(21, 66, 163);
     background-color: white;
 }
 
-.btn1{
+.btn1 {
     font-size: 1rem;
-    color: black;
+    color: rgba(0, 0, 0, 0.836);
     border-radius: 2rem;
     padding: 0.5rem;
     margin-top: 2rem;
@@ -95,22 +74,7 @@
     cursor: pointer;
 }
 
-.end{
-<<<<<<< HEAD
-    padding: 1rem;
-    text-align: center;
-    margin-top: -2rem;
-    background-color: black;
-    color: white;
-    font-family:  "Roboto Mono", monospace;
-}
-
-@media(max-width:356){
-     .h1{
-        font-size: 90%;
-     }
-}
-=======
+.end {
     width: 100vw;
     line-height: 5rem;
     background-color: black;
@@ -119,16 +83,69 @@
     margin-top: -2rem;
 }
 
-@media(max-width:350px){
-    html{
-       font-size: 45%;
+@media(max-width:350px) {
+    .h1 {
+        font-size: 1.7rem;
+        padding: 0.5rem;
+    }
+
+    .h2 {
+        font-size: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .f1 {
+        padding-top: 2.5rem;
+        padding-bottom: 4rem;
+        font-size: 1rem;
+        margin-top: -4rem;
+        margin-bottom: 2rem;
+    }
+    .btn {
+        font-size: .9rem;
+        padding: 0.7rem;
+        margin-top: 1rem;
+    }
+    .end {
+        width: 95vw;
+        line-height: 4rem;
     }
 }
 
-@media(max-width:998px){
-     html{
-        font-size: 55%;
-     }
-}
 
->>>>>>> 1048fae (second commit)
+@media(max-width:682px){
+    .h1 {
+        padding: 1.01rem;
+        padding: 0rem;
+    }
+
+    .h2 {
+        font-size: 1.7rem;
+        padding-left: 1.9rem;
+        padding-right: 1.9rem;
+    }
+
+    .f1 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-size: 2rem;
+        margin-top: -1rem;
+        margin-bottom: 3rem;
+    }
+    .btn {
+        font-size: 1.5rem;
+        padding: 0.7rem;
+        margin-top: 2rem;
+    }
+    .btn1{
+        font-size: 1rem;
+        border-radius: 2rem;
+        padding: 0.9rem;
+        margin-top: 2rem;
+    }
+    .end {
+        width: 98vw;
+        line-height: 6rem;
+    } 
+}
