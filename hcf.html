@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highest Common Factor</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hcf-body">
+
+            <div class="heading">
+                <h1>Highest Common Factor(HCF)</h1>
+                <div class="retur">
+                    <a href="index.html"><button>Home</button></a>
+                </div>
+            </div>
+
+            <label for="par-1">Number 1:</label>
+            <input type="text" id="par-1" autocomplete="off" autofocus required><br><br>
+
+            <label for="par-2">Number 2:</label>
+            <input type="text" id="par-2" autocomplete="off" autofocus required><br><br>
+
+            <button onclick="calculate()">Calculate HCF</button>
+
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script>
+
+        function calculate() {
+            var x = parseInt(document.getElementById("par-1").value);
+            var y = parseInt(document.getElementById("par-2").value);
+
+            // Validate input
+            if (isNaN(x) || isNaN(y)) {
+                alert("Please enter valid numbers.");
+                return;
+            }
+
+            // Find HCF using Euclidean algorithm
+            while (y !== 0) {
+                var temp = y;
+                y = x % y;
+                x = temp;
+            }
+
+            // Display the HCF
+            document.getElementById("result").innerHTML = "HCF: " + x;
+        }
+    </script>
+</body>
+
+</html>
